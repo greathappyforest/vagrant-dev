@@ -1,7 +1,0 @@
-#!/bin/bash
-DATE=$(date +"%Y-%m-%d %H.%M.%S")
-{
-echo $DATE
-echo $@
-cat
-} >> "/srv/logs/fakemail/${DATE}.log"
